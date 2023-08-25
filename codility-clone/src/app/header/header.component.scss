@@ -1,0 +1,21 @@
+.header-wrapper {
+  height: 200vh;
+  background-image: url("https://www.codility.com/wp-content/uploads/2020/03/3-remote.jpg");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  object-fit: cover;
+}
+.header-menu {
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px;
+  color: white;
+}
+.candidates,.login {
+  margin: 10px;
+  cursor: pointer;
+}
+.candidates > a  {
+  text-decoration: none;
+}
