@@ -7,4 +7,12 @@ import { Component } from '@angular/core';
 })
 export class HeaderComponent {
   listNavbar=["Plateform","Solutions","Resources","Our Customers"];
+
+  constructor(){}
+
+  isRotated: boolean = false;
+
+  rotateIcon(shouldRotate: boolean) {
+    this.isRotated = shouldRotate;
+  }
 }
